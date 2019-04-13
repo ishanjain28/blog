@@ -1,6 +1,6 @@
 baseurl = "https://ishanjain.me"
 DefaultContentLanguage = "en"
-title = "<title goes here>"
+title = "<title goes here/>"
 theme = "beautifulhugo"
 metaDataFormat = "yaml"
 pygmentsUseClasses = true
@@ -11,18 +11,21 @@ pygmentCodeFences = true
   logo = "img/profile.jpg"
   favicon = "img/favicon.ico"
   dateFormat = "January 2, 2006"
-  #commit = "https://github.com/ishanjain28/blog/master/"
+  commit = true
   rss = true
   comments = true
   readingTime = true
   wordCount = true
   showRelatedPosts = true
+  selfHosted = false
+  useHLJS = true
 
 [Author]
   name = "Ishan Jain"
   website = "https://ishanjain.me"
   email = "ishanjain28@gmail.com"
   github = "ishanjain28"
+  gitlab = "ishanjain"
   twitter = "ishanjain28"
   reddit = "ishanjain28"
   steam = "ishanjain28"
