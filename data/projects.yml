@@ -24,6 +24,6 @@ source:
     description: An Image Filters Library. It has various filters like Grayscaling, Red only, Green only that can be applied to a JPEG or PNG Image.
     link: https://github.com/ishanjain28/goimagexp
 
-  - icon: fa fa-globe
-    description: DOTA2 Lan Gaming Event Registration System. It uses Instamojo as payment gateway and NodeJS in Backend.
-    link: https://dota2-lan.herokuapp.com
+    #  - icon: fa fa-globe
+    #    description: DOTA2 Lan Gaming Event Registration System. It uses Instamojo as payment gateway and NodeJS in Backend.
+    #    link: https://dota2-lan.herokuapp.com

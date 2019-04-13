@@ -3,6 +3,10 @@ title: About me
 comments: true
 ---
 
-My name is **Ishan Jain** and I am a *Student* and *Part-Time Backend Engineer*. I've been programming for the past 4 years and absolutely love building stuff. Currently, My [Friend](https://sowmayjain.com) and I, run multiple Fintech related websites like [Clonefolio](https://clonefolio.com). I did Front End Web Development for a short period of about a year but didn't liked it. So, I switched my focus towards *Backend* and *Distributed Systems* and I am glad I made this choice. I also like to study, solve puzzle and build stuff related to fields like *Cryptography* and *Image Processing* and sometimes play some games as well. 
+My name is **Ishan Jain** and I am an UnderGraduate Student in India. I've been programming for the past 6 years and absolutely love building stuff. I did Front End Web Development for a short period of about a year but didn't liked it. So, I switched my focus towards *Backend* and *Computer Graphics* and I am glad I made this choice. I also like to study, solve puzzle and build stuff related to fields like *Computer Graphics*, *Cryptography* and *Image Processing*. 
 
-I believe in choosing the right tool for the job, So, I experimented and learned some languages like Go, Rust, Node.js, Python and C. I mostly like to use Rust and Go.
+My go to languages are Rust or Go. 
+
+This site as of now isn't updated too often as I am preparing for some exams but hopefully that'll change soon.
+
+Have a nice day. 

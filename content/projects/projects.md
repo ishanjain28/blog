@@ -5,8 +5,7 @@ type: page
 showpagemeta: false
 ---
 
-This is a collection of projects that I've worked on until now. 
-
+This is a (incomplete)collection of projects that I've worked on until now. 
 
 # Websites
 
@@ -19,17 +18,16 @@ This is a collection of projects that I've worked on until now.
 
 # Bots
 
-**Burnbit** - This is a Telegram bot that converts Direct Download Links to Torrents. It takes a valid HTTP url from user, Downloads the file and creates a .torrent file that can be used with a torrent client. It is not live but you can see the code on Github.
+**Burnbit[DEFUNCT]** - This is a Telegram bot that converts Direct Download Links to Torrents. It takes a valid HTTP url from user, Downloads the file and creates a .torrent file that can be used with a torrent client. It is not live but you can see the code on Github.
 [Github](https://github.com/ishanjain28/burnbitbot)
 
-
-**Imgur Bot** - This is a Telegram bot. You can login to your [imgur](https://imgur.com) account and then this bot will upload any image you send to it to any album of your choice.
+**Imgur Bot[DEFUNCT]** - This is a Telegram bot. You can login to your [imgur](https://imgur.com) account and then this bot will upload any image you send to it to any album of your choice.
 [Demo](https://t.me/chinguimgurbot) and [Github](https://github.com/ishanjain28/imgur-bot)
 
 **Cyanide & Happiness** - This is a Telegram bot. You can subscribe to receive the daily comics or you can send it a message with text "random" to receive a random comic.
 [Demo](https://t.me/cyanidesub_bot) and [Github](https://github.com/ishanjain28/chbot)
 
-**Instagram Profile Picture** - This is a Telegram bot. You can subscribe to receive the daily comics or you can send it a message with text "random" to receive a random comic.
+**Instagram Profile Picture[DEFUNCT]** - This is a Telegram bot. You can subscribe to receive the daily comics or you can send it a message with text "random" to receive a random comic.
 [Demo](https://t.me/instagram_profile_bot) and [Github](https://github.com/ishanjain28/instagram-bot)
 
 
@@ -55,3 +53,13 @@ This is a collection of projects that I've worked on until now.
 # Miscellaneous
 **Perceptual hash** - A library to find the percent similarity between two images. It create a Difference Hash of both images and finds the hamming distance between those hashes to calculate the similarity percentage.
 [Github](https://github.com/ishanjain28/perceptualhash)
+
+
+# Work in progress Experiments
+**Neptune** - An Operating system written in Rust. The long term goals are to have it boot into 32 bit mode, develop a simple game engine for it and port DOOM to it. [Source Code](https://gitlab.com/ishanjain/neptune)
+
+**Monkey Language Interpreter** - A Monkey language Interpreter written in Rust. [Source Code](https://gitlab.com/ishanjain/monkey-interpreter)
+
+
+
+The `DEFUNCT` tag is for projects that used to work but don't work anymore either because I took them down and left the codebase on Github or the services that they were built around have changed over time or I don't care enough to go back and see if they are still working and/or fix whatever issues they have.
