@@ -5,6 +5,8 @@ theme = "beautifulhugo"
 metaDataFormat = "yaml"
 pygmentsUseClasses = true
 pygmentCodeFences = true
+enableRobotsTXT = true
+enableEmoji = true
 
 [Params]
   subtitle = "personal blog on Computer Graphics, Backend, Image processing and maybe some random topics"
@@ -19,6 +21,8 @@ pygmentCodeFences = true
   showRelatedPosts = true
   selfHosted = false
   useHLJS = true
+  since = "2019"
+#  keywords = ["computer graphics", "networking", "linux", "open-source"]
 
 [Author]
   name = "Ishan Jain"

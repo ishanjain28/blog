@@ -1,11 +1,11 @@
 ---
-date: "2016-10-02T22:55:05-04:00"
+date: "2018-10-02T22:55:05+05:30"
 title: "Projects"
 type: page
 showpagemeta: false
 ---
 
-This is a (incomplete)collection of projects that I've worked on until now. 
+This is a (incomplete)collection of projects that I've worked on until now.
 
 # Websites
 
@@ -41,7 +41,7 @@ This is a (incomplete)collection of projects that I've worked on until now.
 
 # Microservices and APIs
 
-**BSNL Balance API** - An API that can be used to fetch Account balance of any BSNL Prepaid user in India. 
+**BSNL Balance API** - An API that can be used to fetch Account balance of any BSNL Prepaid user in India.
 [Github](https://github.com/ishanjain28/bsnl-balance-api)
 
 **FCC Headers Microservice** - A small service that can be used to fetch public IP address of a machine along with the details of Client which made the request.
