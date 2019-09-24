@@ -20,9 +20,7 @@ jobs:
         extended: true
 
     - name: Build
-      run: hugo --gc --minify --cleanDestinationDir
-      env:
-        GIT_COMMIT_SHA: ${{ github.sha }}
+      run: hugo --gc --minify --cleanDestinationDir --enableGitInfo
 
     - name: SCP Files
       uses: appleboy/scp-action@v0.0.1
