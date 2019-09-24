@@ -21,6 +21,8 @@ jobs:
 
     - name: Build
       run: hugo --gc --minify --cleanDestinationDir
+      env:
+        GIT_COMMIT_SHA: ${{ github.sha }}
 
     - name: SCP Files
       uses: appleboy/scp-action@v0.0.1
@@ -31,5 +33,3 @@ jobs:
         PASSWORD: ${{ secrets.PASSWORD }}
         TARGET: ${{ secrets.REMOTE }}
         SOURCE: ./public
-        
-        
