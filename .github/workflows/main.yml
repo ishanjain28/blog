@@ -22,12 +22,11 @@ jobs:
     - name: Build
       run: hugo --gc --minify --cleanDestinationDir
 
-    - name: deploy-via-scp
-      uses: horochx/deploy-via-scp@v1.0.0
+    - uses: horochx/deploy-via-scp@master
       with:
-        local: ./public
-        remote: /home/deploy/blog
-        host: ishanjain.me
-        port: 4556
-        user: deploy
-        key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+        local: ./public # eg: dist
+        remote: ${{ secrets.REMOTE }} # eg: /home/github-action
+        host: ${{ secrets.HOST }} # eg: example.com
+        port: ${{ secrets.PORT }} # eg: 22
+        user: ${{ secrets.USER }} # eg: github-action
+        key: ${{ secrets.KEY }}
