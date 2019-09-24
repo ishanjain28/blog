@@ -24,3 +24,12 @@ jobs:
 
     - name: SCP Files
       uses: appleboy/scp-action@v0.0.1
+      env:
+        HOST: ${{ secrets.HOST }}
+        PORT: ${{ secrets.PORT }}
+        USERNAME: ${{ secrets.USER }}
+        PASSWORD: ${{ secrets.PASSWORD }}
+        TARGET: ${{ secrets.REMOTE }}
+        SOURCE: ./public
+        
+        
