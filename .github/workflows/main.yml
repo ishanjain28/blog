@@ -22,9 +22,12 @@ jobs:
     - name: Build
       run: hugo --gc --minify --cleanDestinationDir
 
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v2.3.2
-      env:
-        ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-        PUBLISH_BRANCH: gh-pages
-        PUBLISH_DIR: ./public
+    - name: deploy-via-scp
+      uses: horochx/deploy-via-scp@v1.0.0
+      with:
+        local: ./public
+        remote: /home/deploy/blog
+        host: ishanjain.me
+        port: 4556
+        user: deploy
+        key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
